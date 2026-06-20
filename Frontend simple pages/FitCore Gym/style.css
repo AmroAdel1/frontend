@@ -505,6 +505,47 @@ body {
   text-decoration: none;
 }
 
+/* ══════ RESPONSIVE – md (768px+) ══════ */
+@media (min-width: 768px) {
+  .hero-inner {
+    flex-direction: row;
+  }
+  .hero-text {
+    width: 50%;
+  }
+  .hero-image {
+    width: 50%;
+  }
+
+  .feature-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .why-bottom {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .testimonial-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .stats-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .form-row {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .form-card {
+    padding: 3rem;
+  }
+
+  .footer-grid {
+    grid-template-columns: 2fr 1fr 1fr;
+  }
+  .footer-bottom {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
 /* ── Utilities ── */
 .container {
   width: 100%;
