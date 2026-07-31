@@ -1,9 +1,10 @@
-# FitCore Gym 🏋️
+# Game Arena 🎮
 
-A gym landing page built with HTML & CSS.
+A Game Arena landing page built with HTML & CSS & Bootstrap.
 
-🔗 **Live Demo:** [View Project](https://fitcore-gym-landing.netlify.app/)
+🔗 **Live Demo:** [View Project](https://gamearena-landing.netlify.app/)
 
 ## Technologies Used
 - HTML
 - CSS
+- Bootstrap
